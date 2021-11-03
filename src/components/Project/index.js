@@ -1,14 +1,14 @@
 import React from 'react';
-import ProjectModList from '../ProjectModList';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import FirstGrpProject from '../../assets/projects/0.png'
+import SecondGrpProject from '../../assets/projects/1.png'
 
-function Project(props) {
-  const { currentCategory } = props;
+function Project() {
   return (
     <section>
-      <h1 data-testid="h1tag">{capitalizeFirstLetter(currentCategory.name)}</h1>
-      <p>{currentCategory.description}</p>
-      <ProjectModList category={currentCategory.name} />
+      <h1>Halfstack Media</h1>
+    <img src={FirstGrpProject} alt="halfstack-media"/>
+      <h1>Pokedex Project</h1>
+    <img src={SecondGrpProject} alt="pokedex-project"/>
     </section>
   );
 }
