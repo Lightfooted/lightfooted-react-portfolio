@@ -2,3 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+font-family: "Poppins-Regular, sans-serif";
+src: local("Poppins-Regular, sans-serif"),
+ url("./fonts/Poppins-Regular.ttf") format("truetype");
+font-weight: bold;
+}
+
+.poppy {
+    font-family: 'Poppins-Regular, sans-serif';
+}
