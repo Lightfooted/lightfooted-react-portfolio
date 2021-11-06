@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Nav() {
   return (
-    <header className="bg-black">
+    <header className="sticky top-0 z-50 bg-black">
       <div className="container flex justify-between mx-auto">
         <nav>
           <Link to='/' exact className="items-center px-3 py-6 mr-4 text-4xl font-bold tracking-widest text-white poppy inflex-flex hover:text-blue-400">
