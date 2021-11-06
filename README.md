@@ -18,7 +18,7 @@
 
   * About: Description about me!
   * Project: Showcase of 6 different projects. Click each one to see my code and application in action!
-  * Resume: List of my profecencies and a downloadable link to an updated Resume PDF file.
+  * Resume: List of my proficiencies and a downloadable link to an updated Resume PDF file.
   * Contact: A contact form. Link to my email and phone number is also included.
 
   Other features include, title highlight of the current set category and clickable links to my Github, Twitter and Linkedin acounts.
