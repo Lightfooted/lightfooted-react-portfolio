@@ -1,4 +1,4 @@
-# Budget-Tracker
+# Lightfooted's React Portfolio
 
   ![badge](https://img.shields.io/badge/License-MIT-informational)
 
