@@ -13,7 +13,7 @@ function App() {
     <div>
     <Nav/>
       <Switch>
-        <Route component={Home} path='/' exact />
+        <Route component={Home} path='/lightfooted-react-portfolio' exact />
         <Route component={About} path='/about'/>
         <Route component={Project} path='/project'/>
         <Route component={Résumé} path='/Résumé'/>
