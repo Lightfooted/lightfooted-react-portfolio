@@ -1,1 +1,0 @@
-# Lightfooted's React Portfolio
