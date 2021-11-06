@@ -1,26 +1,26 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 function Nav() {
   return (
     <header className="sticky top-0 z-50 bg-black">
       <div className="container flex justify-between mx-auto">
         <nav>
-          <Link to='/' exact className="items-center px-3 py-6 mr-4 text-4xl font-bold tracking-widest text-white poppy inflex-flex hover:text-blue-400">
+          <NavLink to='/' className="items-center px-3 py-6 mr-4 text-4xl font-bold tracking-widest text-white poppy inflex-flex hover:text-blue-400">
             Home
-          </Link>
-          <Link to='/about' className='inline-flex items-center px-3 py-3 my-6 font-semibold text-white poppy hover:text-blue-400'>
+          </NavLink>
+          <NavLink to='/about' activeStyle={{ color: "teal"}} className='inline-flex items-center px-3 py-3 my-6 font-semibold text-white poppy hover:text-blue-400'>
             About
-          </Link>
-          <Link to='/project' className='inline-flex items-center px-3 py-3 my-6 font-semibold text-white poppy hover:text-blue-400'>
+          </NavLink>
+          <NavLink to='/project' activeStyle={{ color: "teal"}} className='inline-flex items-center px-3 py-3 my-6 font-semibold text-white poppy hover:text-blue-400'>
             Project
-          </Link>
-          <Link to='/résumé' className='inline-flex items-center px-3 py-3 my-6 font-semibold text-white poppy hover:text-blue-400'>
+          </NavLink>
+          <NavLink to='/résumé' activeStyle={{ color: "teal"}} className='inline-flex items-center px-3 py-3 my-6 font-semibold text-white poppy hover:text-blue-400'>
             Résumé
-          </Link>
-          <Link to='/contact' className='inline-flex items-center px-3 py-3 my-6 font-semibold text-white poppy hover:text-blue-00'>
+          </NavLink>
+          <NavLink to='/contact' activeStyle={{ color: "teal"}} className='inline-flex items-center px-3 py-3 my-6 font-semibold text-white poppy hover:text-blue-400'>
             Contact
-          </Link>
+          </NavLink>
         </nav>
       </div>
     </header>
