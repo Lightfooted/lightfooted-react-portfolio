@@ -25,6 +25,7 @@
   ## Deployed Github Pages Link
 
   https://lightfooted.github.io/lightfooted-react-portfolio
+  ## Screenshot
   ## Home Page
 
   ![screenshot](/images/homepage.png)
