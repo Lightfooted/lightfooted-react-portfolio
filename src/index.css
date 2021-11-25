@@ -13,3 +13,11 @@ font-weight: bold;
 .poppy {
     font-family: 'Poppins-Regular, sans-serif';
 }
+
+body {
+    background-image: url('./assets/background/gits-back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top left;
+    background-size: cover;
+}

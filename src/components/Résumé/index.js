@@ -1,13 +1,13 @@
 import React from 'react';
-import BackImage from '../../assets/background/gits-back.jpg';
+// import BackImage from '../../assets/background/gits-back.jpg';
 import PDF from '../../assets/resume/resume.pdf';
 
 function Résumé() {
 
   return (
     <main>
-      <img src={BackImage} style={{ width: "100%", height: "100%" }} alt="background" className="absolute"/>
-        <div className='relative flex justify-center p-20 mx-auto lg:pt-64'>
+      {/* <img src={BackImage} style={{ width: "100%", height: "100%" }} alt="background" className="absolute"/> */}
+        <div className='relative flex justify-center p-20 mx-auto lg:pt-24'>
           <section className='p-10 bg-black rounded-lg shadow-2xl bg-opacity-80 lg:flex'>
               <div>
                 <h1 className='mb-3 text-5xl text-white poppy'>Résumé</h1>

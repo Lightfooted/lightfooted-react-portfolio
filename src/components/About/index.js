@@ -1,13 +1,13 @@
 import React from 'react';
 import coverImage from '../../assets/cover/port-pic.png';
-import BackImage from '../../assets/background/gits-back.jpg';
+// import BackImage from '../../assets/background/gits-back.jpg';
 
 function About() {
 
   return (
     <main>
-      <img src={BackImage} style={{ width: '100%', height: '100%' }} alt='background' className='absolute'/>
-        <div className='relative flex p-20 mx-auto lg:pt-64'>
+      {/* <img src={BackImage} style={{ width: '100%', height: '100%' }} alt='background' className='absolute'/> */}
+        <div className='relative flex p-20 mx-auto lg:pt-48'>
           <section className='p-10 bg-black rounded-lg shadow-2xl bg-opacity-80 lg:flex'>
             <img src={coverImage} style={{ width: '15%' }} alt='bio' className='mr-6 rounded lg:w-64 lg:64'/>
               <div>
