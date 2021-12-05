@@ -41,15 +41,15 @@ function Contact() {
           <section className='p-20 text-white bg-black rounded-lg shadow-2xl poppy bg-opacity-80 lg:flex'>
           <form onSubmit={handleSubmit}>
         <div>
-          <label>Name: </label>
-          <input className='mb-3 text-black' type='text' name='name' defaultValue={name} onBlur={handleChange} />
+          <label className='inline-block w-20 text-left'>Name: </label>
+          <input className='mb-2 text-black' type='text' name='name' defaultValue={name} onBlur={handleChange} />
         </div>
         <div>
-          <label>Email address: </label>
-          <input className='mb-3 text-black' type='email' name='email' defaultValue={email} onBlur={handleChange} />
+          <label className='inline-block w-20 text-left'>Email address: </label>
+          <input className='mb-8 text-black' type='email' name='email' defaultValue={email} onBlur={handleChange} />
         </div>
         <div>
-          <label>Message: </label>
+          <label className='inline-block w-20 text-left'>Message: </label>
           <textarea maxLength='150' className='text-black resize-none' name='message' defaultValue={message} onBlur={handleChange} />
         </div>
         <div>
@@ -58,7 +58,7 @@ function Contact() {
         </div>
         <div>
         <label></label>
-        <a href="tel:+4074840907" className='hover:text-blue-400'>Click here for Kimberly's phone number</a>
+        <a href="tel:+14074840907" className='hover:text-blue-400'>Click here for Kimberly's phone number</a>
         </div>
         {errorMessage && (
           <div>
