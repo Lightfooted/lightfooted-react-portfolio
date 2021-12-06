@@ -10,6 +10,17 @@ src: local("Poppins-Regular, sans-serif"),
 font-weight: bold;
 }
 
+@layer utilities {
+  .text-shadow {
+    text-shadow:
+     3px  3px 0 #000,
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+  }
+}
+
 .poppy {
     font-family: 'Poppins-Regular, sans-serif';
 }
