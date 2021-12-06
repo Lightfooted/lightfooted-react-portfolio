@@ -24,7 +24,7 @@ function Home() {
   return (
       <main>
         {/* <img src={BackImage} style={{ width: '100%', height: '100%' }} alt='background' className='absolute'/> */}
-          <section className='relative flex justify-center min-h-screen px-8 pt-12 lg:pt-64'> 
+          <section className='relative flex justify-center p-20 mx-auto overflow-hidden lg:pt-64'> 
             <h1 className='text-5xl text-white poppy lg:leading-snug home-name'>{result}</h1>
           </section>
       </main>
