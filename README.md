@@ -14,12 +14,12 @@
 
   ## Description:
 
-  A new version of my Professional Portfolio built with React using Components and React Router. On this single page application, the user can navigate with ease to 4 different catergories to view:
+  A new version of my Professional Portfolio built with React using Components and React Router. On this single page application, the user can navigate and view 4 different catergories:
 
-  * About: Description about me!
-  * Project: Showcase of 6 different projects. Click each one to see my code and application in action!
+  * About: A little description about me!
+  * Project: The Showcase page. It consists of 7 different projects that I have worked on. Click each image to see the application in action! The Github icon redirects to my source code.
   * Resume: List of my proficiencies and a downloadable link to an updated Resume PDF file.
-  * Contact: A contact form. Link to my email and phone number is also included.
+  * Contact: Want to contact me? I got a form for that! (Currently not fully operational on the backend) A working link to my email and phone number is included.
 
   Other features include, title highlight of the current set category and clickable links to my Github, Twitter and Linkedin acounts.
   ## Deployed Github Pages Link
@@ -28,7 +28,7 @@
   ## Screenshot
   ## Home Page
 
-  ![screenshot](/images/homepage.png)
+  ![screenshot](/images/homepage.gif)
   ## About Page
 
   ![screenshot](/images/about-page.png)
@@ -47,7 +47,7 @@
   This project uses the MIT license.
   ## Contribution
 
-  Pull requests and discussing open issues.
+  Discuss open issues.
   ## Questions
   
   Have any questions or need further assistance with the project? 
