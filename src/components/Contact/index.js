@@ -40,15 +40,15 @@ function Contact() {
           <form onSubmit={handleSubmit}>
         <div>
           <label className='inline-block w-20 text-left'>Name: </label>
-          <input className='mb-2 text-black' type='text' name='name' defaultValue={name} onBlur={handleChange} />
+          <input className='mb-2 text-black' type='text' name='name' defaultValue={name} onBlur={handleChange} onChange={(e) => setFormState({...formState, name: e.target.value})} />
         </div>
         <div>
           <label className='inline-block w-20 text-left'>Email address: </label>
-          <input className='mb-8 text-black' type='email' name='email' defaultValue={email} onBlur={handleChange} />
+          <input className='mb-8 text-black' type='email' name='email' defaultValue={email} onBlur={handleChange} onChange={(e) => setFormState({...formState, email: e.target.value})} />
         </div>
         <div>
           <label className='inline-block w-20 text-left'>Message: </label>
-          <textarea maxLength='150' className='text-black resize-none' name='message' defaultValue={message} onBlur={handleChange} />
+          <textarea maxLength='150' className='text-black resize-none' name='message' defaultValue={message} onBlur={handleChange} onChange={(e) => setFormState({...formState, message: e.target.value})} />
         </div>
         <div>
         <label></label>
