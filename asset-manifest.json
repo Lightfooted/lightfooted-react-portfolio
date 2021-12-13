@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lightfooted-react-portfolio/static/css/main.bf8e3e18.chunk.css",
-    "main.js": "/lightfooted-react-portfolio/static/js/main.92cef3c8.chunk.js",
-    "main.js.map": "/lightfooted-react-portfolio/static/js/main.92cef3c8.chunk.js.map",
-    "runtime-main.js": "/lightfooted-react-portfolio/static/js/runtime-main.26b8201b.js",
-    "runtime-main.js.map": "/lightfooted-react-portfolio/static/js/runtime-main.26b8201b.js.map",
-    "static/js/2.1b41375b.chunk.js": "/lightfooted-react-portfolio/static/js/2.1b41375b.chunk.js",
-    "static/js/2.1b41375b.chunk.js.map": "/lightfooted-react-portfolio/static/js/2.1b41375b.chunk.js.map",
-    "static/js/3.23df9910.chunk.js": "/lightfooted-react-portfolio/static/js/3.23df9910.chunk.js",
-    "static/js/3.23df9910.chunk.js.map": "/lightfooted-react-portfolio/static/js/3.23df9910.chunk.js.map",
+    "main.css": "/lightfooted-react-portfolio/static/css/main.1ce012e1.chunk.css",
+    "main.js": "/lightfooted-react-portfolio/static/js/main.db1c73f5.chunk.js",
+    "main.js.map": "/lightfooted-react-portfolio/static/js/main.db1c73f5.chunk.js.map",
+    "runtime-main.js": "/lightfooted-react-portfolio/static/js/runtime-main.f52c436f.js",
+    "runtime-main.js.map": "/lightfooted-react-portfolio/static/js/runtime-main.f52c436f.js.map",
+    "static/js/2.4ea5617b.chunk.js": "/lightfooted-react-portfolio/static/js/2.4ea5617b.chunk.js",
+    "static/js/2.4ea5617b.chunk.js.map": "/lightfooted-react-portfolio/static/js/2.4ea5617b.chunk.js.map",
+    "static/js/3.da477cf4.chunk.js": "/lightfooted-react-portfolio/static/js/3.da477cf4.chunk.js",
+    "static/js/3.da477cf4.chunk.js.map": "/lightfooted-react-portfolio/static/js/3.da477cf4.chunk.js.map",
     "index.html": "/lightfooted-react-portfolio/index.html",
-    "static/css/main.bf8e3e18.chunk.css.map": "/lightfooted-react-portfolio/static/css/main.bf8e3e18.chunk.css.map",
-    "static/js/2.1b41375b.chunk.js.LICENSE.txt": "/lightfooted-react-portfolio/static/js/2.1b41375b.chunk.js.LICENSE.txt",
+    "static/css/main.1ce012e1.chunk.css.map": "/lightfooted-react-portfolio/static/css/main.1ce012e1.chunk.css.map",
+    "static/js/2.4ea5617b.chunk.js.LICENSE.txt": "/lightfooted-react-portfolio/static/js/2.4ea5617b.chunk.js.LICENSE.txt",
     "static/media/0.69317dc9.png": "/lightfooted-react-portfolio/static/media/0.69317dc9.png",
     "static/media/1.c0724e45.png": "/lightfooted-react-portfolio/static/media/1.c0724e45.png",
     "static/media/2.2ac98037.png": "/lightfooted-react-portfolio/static/media/2.2ac98037.png",
@@ -24,9 +24,9 @@
     "static/media/resume.f0ab3625.pdf": "/lightfooted-react-portfolio/static/media/resume.f0ab3625.pdf"
   },
   "entrypoints": [
-    "static/js/runtime-main.26b8201b.js",
-    "static/js/2.1b41375b.chunk.js",
-    "static/css/main.bf8e3e18.chunk.css",
-    "static/js/main.92cef3c8.chunk.js"
+    "static/js/runtime-main.f52c436f.js",
+    "static/js/2.4ea5617b.chunk.js",
+    "static/css/main.1ce012e1.chunk.css",
+    "static/js/main.db1c73f5.chunk.js"
   ]
 }
