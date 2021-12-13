@@ -1,13 +1,20 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useDencrypt } from 'use-dencrypt-effect';
 
 const values = ["Hello!", "My name is Kimberly Collazo.", "AKA Lightfooted.", "Welcome to my portfolio."];
 
+const decryption = {
+  chars: `人 生 今 時 力 新 部 八 九 保 同 方 強 自 正 理 
+          愛 遊 勇 因 美 器 敬 永 選 治 賢 固 希 喜 軍 航 _`
+    .replace(""),
+  interval: 70
+};
+
 function Home() {
 
-  const { result, dencrypt } = useDencrypt();
+  const { result, dencrypt } = useDencrypt(decryption);
  
-  React.useEffect(() => {
+  useEffect(() => {
     let i = 0;
  
     const action = setInterval(() => {
@@ -17,8 +24,8 @@ function Home() {
     }, 5000);
  
     return () => clearInterval(action);
-    // eslint-disable-next-line
-  }, []);
+    
+  }, [dencrypt]);
 
   return (
       <main>
