@@ -12,7 +12,7 @@ function Project() {
   return (
     <main>
       <div className='relative flex justify-center p-20 mx-auto lg:pt-18'>
-        <div className="grid grid-cols-4 gap-5 p-10 text-center text-white bg-black rounded-lg shadow-2xl bg-opacity-80">
+        <div className="grid grid-cols-1 gap-4 p-10 text-center text-white bg-black rounded-lg shadow-2xl lg:grid-cols-4 bg-opacity-80">
           <div>
             <a href='https://lverghese.github.io/project-one/' rel='noopener noreferrer' target='_blank'>First Group Project: Halfstack-Media<img src={FirstGrpProject} alt='halfstack-media'/></a>
             <a href='https://github.com/lverghese/project-one' rel='noopener noreferrer' target='_blank'><img src={GitLink} className='mx-auto mt-2' alt='gitlink'/></a>
