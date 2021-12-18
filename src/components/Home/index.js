@@ -5,7 +5,7 @@ const values = ["Hello!", "My name is Kimberly Collazo.", "AKA Lightfooted.", "W
 
 const decryption = {
   chars: `人 生 今 時 力 新 部 八 九 保 同 方 強 自 正 理 
-          愛 遊 勇 因 美 器 敬 永 選 治 賢 固 希 喜 軍 航 _`
+          愛 遊 勇 因 美 器 敬 永 選 治 賢 固 希 喜 軍 航`
     .replace(""),
   interval: 70
 };
