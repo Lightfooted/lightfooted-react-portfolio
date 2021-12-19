@@ -35,35 +35,35 @@ function Contact() {
 
   return (
     <main>
-        <div className='relative flex justify-center p-20 mx-auto lg:pt-48'>
-          <section className='p-20 text-white bg-black rounded-lg shadow-2xl poppy bg-opacity-80 lg:flex'>
+        <div className='relative flex justify-center p-24 mx-auto lg:pt-48'>
+          <section className='p-10 text-white bg-black rounded-lg shadow-2xl poppy bg-opacity-80 lg:flex'>
           <form onSubmit={handleSubmit}>
         <div>
-          <label className='inline-block w-20 text-left'>Name: </label>
-          <input className='mb-2 text-black' type='text' name='name' defaultValue={name} onBlur={handleChange} onChange={(e) => setFormState({...formState, name: e.target.value})} />
+          <label className='inline-block text-left'>Name: </label>
+          <input className='w-full mb-2 text-black' type='text' name='name' defaultValue={name} onBlur={handleChange} onChange={(e) => setFormState({...formState, name: e.target.value})} />
         </div>
         <div>
-          <label className='inline-block w-20 text-left'>Email address: </label>
-          <input className='mb-8 text-black' type='email' name='email' defaultValue={email} onBlur={handleChange} onChange={(e) => setFormState({...formState, email: e.target.value})} />
+          <label className='inline-block text-left'>Email address: </label>
+          <input className='w-full mb-2 text-black' type='email' name='email' defaultValue={email} onBlur={handleChange} onChange={(e) => setFormState({...formState, email: e.target.value})} />
         </div>
         <div>
-          <label className='inline-block w-20 text-left'>Message: </label>
-          <textarea maxLength='150' className='text-black resize-none' name='message' defaultValue={message} onBlur={handleChange} onChange={(e) => setFormState({...formState, message: e.target.value})} />
-        </div>
-        <div>
-        <label></label>
-        <a href="mailto:vesselofbalance@hotmail.com" className='hover:text-blue-400'>Click here for Kimberly's email</a>
+          <label className='inline-block text-left'>Message: </label>
+          <textarea maxLength='150' className='w-full text-black resize-none' name='message' defaultValue={message} onBlur={handleChange} onChange={(e) => setFormState({...formState, message: e.target.value})} />
         </div>
         <div>
         <label></label>
-        <a href="tel:+14074840907" className='hover:text-blue-400'>Click here for Kimberly's phone number</a>
+        <a href="mailto:vesselofbalance@hotmail.com" className='underline hover:text-blue-400'>Click here for Kimberly's email</a>
+        </div>
+        <div>
+        <label></label>
+        <a href="tel:+14074840907" className='underline hover:text-blue-400'>Click here for Kimberly's phone number</a>
         </div>
         {errorMessage && (
-          <div>
+          <div className='mt-4'>
             <p>{errorMessage}</p>
           </div>
         )}
-        <button type='submit' className='h-10 px-5 mt-3 text-white transition-colors duration-150 border rounded-lg focus:shadow-outline hover:bg-gray-700 hover:text-white'>Submit</button>
+        <button type='submit' className='h-10 px-5 mt-3 text-white transition-colors duration-150 border rounded-lg focus:shadow-outline hover:text-blue-400'>Submit</button>
       </form>
           </section>
         </div>
