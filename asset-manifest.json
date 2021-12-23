@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/lightfooted-react-portfolio/static/css/main.174c4552.chunk.css",
-    "main.js": "/lightfooted-react-portfolio/static/js/main.a161d26f.chunk.js",
-    "main.js.map": "/lightfooted-react-portfolio/static/js/main.a161d26f.chunk.js.map",
+    "main.css": "/lightfooted-react-portfolio/static/css/main.463bef2a.chunk.css",
+    "main.js": "/lightfooted-react-portfolio/static/js/main.30b7cd9a.chunk.js",
+    "main.js.map": "/lightfooted-react-portfolio/static/js/main.30b7cd9a.chunk.js.map",
     "runtime-main.js": "/lightfooted-react-portfolio/static/js/runtime-main.864aa36a.js",
     "runtime-main.js.map": "/lightfooted-react-portfolio/static/js/runtime-main.864aa36a.js.map",
     "static/css/2.b7f7b496.chunk.css": "/lightfooted-react-portfolio/static/css/2.b7f7b496.chunk.css",
-    "static/js/2.ebc387ff.chunk.js": "/lightfooted-react-portfolio/static/js/2.ebc387ff.chunk.js",
-    "static/js/2.ebc387ff.chunk.js.map": "/lightfooted-react-portfolio/static/js/2.ebc387ff.chunk.js.map",
+    "static/js/2.4449f1a4.chunk.js": "/lightfooted-react-portfolio/static/js/2.4449f1a4.chunk.js",
+    "static/js/2.4449f1a4.chunk.js.map": "/lightfooted-react-portfolio/static/js/2.4449f1a4.chunk.js.map",
     "static/js/3.f4b943fd.chunk.js": "/lightfooted-react-portfolio/static/js/3.f4b943fd.chunk.js",
     "static/js/3.f4b943fd.chunk.js.map": "/lightfooted-react-portfolio/static/js/3.f4b943fd.chunk.js.map",
     "index.html": "/lightfooted-react-portfolio/index.html",
     "static/css/2.b7f7b496.chunk.css.map": "/lightfooted-react-portfolio/static/css/2.b7f7b496.chunk.css.map",
-    "static/css/main.174c4552.chunk.css.map": "/lightfooted-react-portfolio/static/css/main.174c4552.chunk.css.map",
-    "static/js/2.ebc387ff.chunk.js.LICENSE.txt": "/lightfooted-react-portfolio/static/js/2.ebc387ff.chunk.js.LICENSE.txt",
+    "static/css/main.463bef2a.chunk.css.map": "/lightfooted-react-portfolio/static/css/main.463bef2a.chunk.css.map",
+    "static/js/2.4449f1a4.chunk.js.LICENSE.txt": "/lightfooted-react-portfolio/static/js/2.4449f1a4.chunk.js.LICENSE.txt",
     "static/media/0.69317dc9.png": "/lightfooted-react-portfolio/static/media/0.69317dc9.png",
     "static/media/1.c0724e45.png": "/lightfooted-react-portfolio/static/media/1.c0724e45.png",
     "static/media/2.2ac98037.png": "/lightfooted-react-portfolio/static/media/2.2ac98037.png",
@@ -28,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.864aa36a.js",
     "static/css/2.b7f7b496.chunk.css",
-    "static/js/2.ebc387ff.chunk.js",
-    "static/css/main.174c4552.chunk.css",
-    "static/js/main.a161d26f.chunk.js"
+    "static/js/2.4449f1a4.chunk.js",
+    "static/css/main.463bef2a.chunk.css",
+    "static/js/main.30b7cd9a.chunk.js"
   ]
 }
