@@ -32,3 +32,17 @@ body {
     background-position: center;
     background-size: cover;
 }
+
+.button-plz-show {
+  position: fixed;
+  bottom: 80px;
+  right: 15px;
+  font-size: 70px;
+  background: black;
+  opacity: 0.6;
+  color: white;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+  align-content: center;
+}
