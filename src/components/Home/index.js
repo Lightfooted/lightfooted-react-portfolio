@@ -32,7 +32,7 @@ function Home() {
   return (
       <main>
           <section className='relative flex justify-center p-20 mx-auto overflow-hidden lg:pt-64'>
-              <Loader type='Puff' color='#ffffff' height={100} width={100} timeout={4000} />
+              <Loader type='Puff' color='#ffffff' height={100} width={100} timeout={3000} />
             <h1 className='text-5xl text-white text-shadow poppy lg:leading-snug'>{result}</h1>
           </section>
       </main>
